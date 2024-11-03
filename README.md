@@ -45,10 +45,13 @@ Pembagian: 2.25
 Penjumlahan: 13
 Pengurangan: 5
 Modulus: 1
+<h2>8.</h2>
 
-
+![image](https://github.com/user-attachments/assets/f814ccfb-9ed8-4c26-9af6-02b216a5bf73)
 ![Screenshot 2024-11-03 072608](https://github.com/user-attachments/assets/15946d84-af4e-41da-a92d-7c61532833d2)
 ![Screenshot 2024-11-03 072625](https://github.com/user-attachments/assets/20369667-1002-4965-b8e3-9db0a4a7f5c0)
+Jika nilai tidak lebih dari 60 maka program dinyatakan tidak lulus dan jika program menilai data lebih dari 60 maka program dinyatakan lulus
+
 ![Screenshot 2024-11-03 090305](https://github.com/user-attachments/assets/82158524-dd34-45ee-bb67-24bde1a8d9f5)
 ![Screenshot 2024-11-03 090327](https://github.com/user-attachments/assets/0cf416a7-edc8-433f-9e6d-5aa89737abc8)
 ![Screenshot 2024-11-03 091932](https://github.com/user-attachments/assets/b1dbcdae-ee87-4f70-bd4d-4c00763e9497)
