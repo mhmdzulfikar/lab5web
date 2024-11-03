@@ -1,6 +1,57 @@
 <h2>1.</h2>
-![image](https://github.com/user-attachments/assets/9be23b25-ec28-44fe-b44d-92b47a2adc4d)
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form dengan Validasi</title>
+      <script>
+          function validateForm() {
+              var name = document.getElementById("name").value;
+              var email = document.getElementById("email").value;
+              var phone = document.getElementById("phone").value;
+              var password = document.getElementById("password").value;
+              var errorMessages = "";
+              if (name === "") {
+                  errorMessages += "Nama tidak boleh kosong.\n";
+              }
+              var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,6}$/;
+              if (!emailPattern.test(email)) {
+                  errorMessages += "Masukkan email yang valid.\n";
+              }
+              var phonePattern = /^[0-9]+$/;
+              if (!phonePattern.test(phone)) {
+                  errorMessages += "Nomor telepon hanya boleh berisi angka.\n";
+              }
+              if (password.length < 8) {
+                  errorMessages += "Password harus minimal 8 karakter.\n";
+              }
+              if (errorMessages !== "") {
+                  alert("Error:\n" + errorMessages);
+                  return false; 
+              }
+              return true;
+          }
+      </script>
+  </head>
+  <body>
+      <h1>Form dengan Validasi</h1>
+      <form onsubmit="return validateForm()">
+          <label for="name">Nama:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="text" id="email" name="email"><br><br>
+          <label for="phone">Nomor Telepon:</label><br>
+          <input type="text" id="phone" name="phone"><br><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password"><br><br>
+          <input type="submit" value="Submit">
+      </form>
+  </body>
+  </html>
 
+
+![image](https://github.com/user-attachments/assets/9be23b25-ec28-44fe-b44d-92b47a2adc4d)
 Ambil Nilai Input: Mengambil nilai dari input nama, email, dan nomor telepon dari form.
 Validasi Nama: Mengecek apakah kolom nama kosong, dan memberikan pesan alert jika kosong.
 Validasi Email: Mengecek apakah kolom email kosong dan apakah sesuai dengan format email menggunakan regex.
@@ -36,7 +87,8 @@ maka akan keluar nama yang dimasukkan..
 Kode ini memunculkan kotak pesan (alert box) dengan teks "memanggil javascript lewat body onload" ketika halaman selesai dimuat. Atribut onload="pesan()" di dalam tag <body> secara otomatis memanggil fungsi pesan() saat halaman selesai dimuat, sehingga pesan ditampilkan sebagai pop-up.
 
 ![Screenshot 2024-11-03 072204](https://github.com/user-attachments/assets/789888bb-51a2-407f-b9b9-f67ecb5173f2)
-![Screenshot 2024-11-03 072214](https://github.com/user-attachments/assets/ab478402-e4dd-4d17-ac1f-98a4dc73c1b1)
+![image](https://github.com/user-attachments/assets/bbbab951-1817-46b4-bb54-4ab858d029ec)
+
 ![Screenshot 2024-11-03 072608](https://github.com/user-attachments/assets/15946d84-af4e-41da-a92d-7c61532833d2)
 ![Screenshot 2024-11-03 072625](https://github.com/user-attachments/assets/20369667-1002-4965-b8e3-9db0a4a7f5c0)
 ![Screenshot 2024-11-03 090305](https://github.com/user-attachments/assets/82158524-dd34-45ee-bb67-24bde1a8d9f5)
