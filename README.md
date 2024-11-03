@@ -34,9 +34,18 @@ maka akan keluar nama yang dimasukkan..
 
 ![Screenshot 2024-11-03 071146](https://github.com/user-attachments/assets/da12212f-90c0-492c-93f1-1da4924b8e06)
 Kode ini memunculkan kotak pesan (alert box) dengan teks "memanggil javascript lewat body onload" ketika halaman selesai dimuat. Atribut onload="pesan()" di dalam tag <body> secara otomatis memanggil fungsi pesan() saat halaman selesai dimuat, sehingga pesan ditampilkan sebagai pop-up.
+<h2>7.</h2>
 
 ![Screenshot 2024-11-03 072204](https://github.com/user-attachments/assets/789888bb-51a2-407f-b9b9-f67ecb5173f2)
 ![image](https://github.com/user-attachments/assets/bbbab951-1817-46b4-bb54-4ab858d029ec)
+Kode ini mendefinisikan fungsi test(val1, val2) yang menjalankan operasi aritmatika (perkalian, pembagian, penjumlahan, pengurangan, dan modulus) pada dua angka yang diberikan. Ketika tombol "arithmetic" diklik, fungsi dipanggil dengan nilai 9 dan 4. Hasil dari setiap operasi ditampilkan di halaman melalui document.write, menghasilkan output berikut:
+
+Perkalian: 36
+Pembagian: 2.25
+Penjumlahan: 13
+Pengurangan: 5
+Modulus: 1
+
 
 ![Screenshot 2024-11-03 072608](https://github.com/user-attachments/assets/15946d84-af4e-41da-a92d-7c61532833d2)
 ![Screenshot 2024-11-03 072625](https://github.com/user-attachments/assets/20369667-1002-4965-b8e3-9db0a4a7f5c0)
